@@ -31,6 +31,8 @@ class Buyer_profile_editing : AppCompatActivity() {
     private lateinit var uri: Uri
     private var validCount = 0
 
+    private var new = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityBuyerProfileEditingBinding.inflate(layoutInflater)
